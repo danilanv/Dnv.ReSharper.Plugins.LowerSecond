@@ -18,4 +18,8 @@ Create new live template with this text:
     
 Select value "Guess type expected at this point" for $Interface$ and "Value of another variable with the first character replaced with '_' and second character in lower case" for $mockName$.
 
+![](https://dl.dropboxusercontent.com/u/4554470/retempl.png)
+
+Now, if you print
+
 

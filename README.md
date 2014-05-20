@@ -16,18 +16,14 @@ Create new live template. In VS main menu: ReSharper->Templates Explorer, then i
 
 ![](https://dl.dropboxusercontent.com/u/4554470/retempl.png)
     
-Select value "Guess type expected at this point" for $Interface$ and "Value of another variable with the first character replaced with '_' and second character in lower case" for $mockName$.
+Select value _"Guess type expected at this point"_ for $Interface$ and _"Value of another variable with the first character replaced with '_' _and second character in lower case"_ for $mockName$.
 
-![](https://dl.dropboxusercontent.com/u/4554470/retempl_choose_macro.png)
+In code editor type _moqf_
+![](https://dl.dropboxusercontent.com/u/4554470/retempl_templ.png)
 
-then press another variable
+then presss enter and start typing the interface name in the template specification, you will get field automatically renamed:
 
-![](https://dl.dropboxusercontent.com/u/4554470/retempl_value.png)
-
-and choose Interface 
-
-![](https://dl.dropboxusercontent.com/u/4554470/retempl_choose%20var_ref.png)
-
+![](https://dl.dropboxusercontent.com/u/4554470/retempl_result.png)
 
 
 

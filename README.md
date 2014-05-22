@@ -1,9 +1,11 @@
 Dnv.ReSharper.Plugins.LowerSecond
 =================================
 
-Very small ReSharper 6.1 plugin. Introduces a new macro. 
-Value of another variable with the first character replaced with '_' and second character in lower case. 
+Very small ReSharper 6.1 plugin. Introduces a 2 new macro:
+
+1. Value of another variable with the first character replaced with '_' and second character in lower case. 
 Example: IApplicationSettings => _applicationSettings
+2. Value of another variable with the first character removed and second character in lower case. Example: IApplicationSettings => applicationSettings
 
 #Installation
 

@@ -40,11 +40,11 @@ namespace Dnv.ReSharper.Plugins.LowerSecond
                 var arg = arguments[0];
 
                 if (arg.Length == 1)
-                    return "_" + arg[0].ToString().ToLower();
+                    return arg[0].ToString().ToLower();
 
                 if (arg.Length >= 2)
                 {
-                    var result = "_" + arg[1].ToString().ToLower();
+                    var result = arg[1].ToString().ToLower();
                     if (arg.Length > 2)
                         result += arg.Substring(2);
 
